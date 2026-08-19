@@ -1,0 +1,22 @@
+bin/
+obj/
+build/
+dist/
+.vs/
+.vscode/
+.idea/
+.ai/
+*.user
+*.suo
+*.pdb
+
+# Local machine settings and secrets
+src/**/appsettings.Development.json
+src/**/appsettings.Local.json
+
+# Published user settings/logs should stay outside git
+*.zip
+/appsettings.json
+/*.dll
+/*.exe
+/*.pdb
